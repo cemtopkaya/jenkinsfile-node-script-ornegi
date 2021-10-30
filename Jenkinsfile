@@ -1,5 +1,6 @@
-node {
+@Library('ortak-kutuphane') _
 
+node {
 
     currentBuild.result = "SUCCESS"
 
