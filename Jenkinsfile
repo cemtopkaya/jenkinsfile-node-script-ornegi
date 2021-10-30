@@ -1,4 +1,4 @@
-@Library('ortak-kutuphane') _
+//@Library('ortak-kutuphane') _
 
 node {
 
