@@ -5,9 +5,8 @@ node {
     currentBuild.result = "SUCCESS"
 
     try {
-        sayHello "Selam sana ey dunya"
        stage('Checkout'){
-
+          sayHello "Selam sana ey dunya"
           checkout scm
        }
 
