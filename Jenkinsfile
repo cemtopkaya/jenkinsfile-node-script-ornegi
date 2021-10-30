@@ -6,7 +6,7 @@ node {
 
     try {
        stage('Checkout'){
-          //sayHello "Selam sana ey dunya"
+          sayHello "Selam sana ey dunya"
           checkout scm
        }
 
